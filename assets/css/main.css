@@ -1,0 +1,215 @@
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 30px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.navbar {
+  margin: 4px;
+  padding-left: 20px;
+  padding-top: 0%;
+}
+
+a {
+  color: WHITE;
+}
+
+@font-face {
+  font-family: KRIS KRINGLEimport;
+  src: url("KRIS KRINGLE.ttf");
+}
+
+@font-face {
+  font-family: Assyam-Regularimport;
+  src: url("Assyam-Regular.ttf");
+
+  font-family: Dakota-Regularimport;
+  src: url("Dakota-Regular.ttf");
+}
+.font-big {
+  width: 100%;
+  height: inherit;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 100;
+  font-size: 78px;
+  top: 70%;
+  font-family: KRIS KRINGLEimport;
+}
+
+.ig {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(330deg, rgb(8, 56, 78) 55%, rgb(19, 128, 136) 0%);
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.about h1 {
+  letter-spacing: 2px;
+  padding-top: 40px;
+  font-size: 50px;
+  -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+  font-family: KRIS KRINGLEimport;
+  color: black;
+}
+
+.about p {
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+  font-size: 27px;
+  width: 40%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.foot {
+  background-color: rgb(54, 70, 68);
+}
+
+.category {
+  margin-top: 50px;
+  font-size: 27px;
+  align-content: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  display: flex;
+  background-color: rgba(8, 56, 78);
+}
+
+.category ol {
+  margin: 50px;
+  padding: 50px;
+}
+.foot h1 {
+  text-align: center;
+  letter-spacing: 2px;
+
+  font-size: 50px;
+  -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+  font-family: KRIS KRINGLEimport;
+  color: black;
+}
+.s {
+  font-family: KRIS KRINGLEimport;
+}
+.contain {
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0);
+  position: relative;
+  padding: 20px;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.65), rgba(3, 3, 3, 0.65)),
+    url(../img/bg.jpg);
+
+  background-size: 100%, 100%;
+}
+
+.contain h1 {
+  font-size: 50px;
+  font-family: KRIS KRINGLEimport;
+
+  margin-top: 50px;
+  color: BLACK;
+  font-size: 40px;
+  -webkit-text-stroke: 2px WHITE;
+}
+.contain p {
+  color: white;
+  margin-top: 50px;
+  font-size: 20px;
+  width: 40%;
+}
+.clock {
+  display: flex;
+  margin-left: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .font-big {
+    font-size: 30px;
+  }
+  .navlog {
+    display: flex;
+    width: 50px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .about p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .clock {
+    display: flex;
+    margin-left: 50px;
+  }
+  .clock img {
+    width: 80px;
+    height: 60px;
+  }
+  .contain p {
+    width: 80%;
+    font-size: 15px;
+  }
+  .contain h1 {
+    font-size: 20px;
+  }
+  .category {
+    display: inline;
+    margin-top: 10px;
+  }
+  .category ol {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .foot h1 {
+    font-size: 20px;
+  }
+  .s {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.button1 {
+  border: 1px solid;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  background-color: transparent;
+}
+.button1:hover {
+  background: transparent;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+a:hover {
+  color: rgb(96, 106, 124);
+}
+.navlog {
+  margin-left: -50px;
+  margin-top: 10px;
+}

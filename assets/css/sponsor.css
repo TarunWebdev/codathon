@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+.main {
+  display: flex;
+}
+h1 {
+  letter-spacing: 3px;
+  text-align: center;
+
+  font-family: KRIS KRINGLEimport;
+  margin-top: 30px;
+  color: BLACK;
+  font-size: 40px;
+  -webkit-text-stroke: 2px WHITE;
+}
+.card {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(19, 0, 124);
+  margin: 70px;
+  align-items: auto;
+}
+.card-img-top {
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    display: inline;
+  }
+}
