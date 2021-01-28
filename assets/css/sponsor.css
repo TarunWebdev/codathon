@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(24, 24, 24);
 }
 .main {
   display: flex;
@@ -27,5 +27,8 @@ h1 {
 @media screen and (max-width: 768px) {
   .main {
     display: inline;
+  }
+  .card {
+    margin: 40px;
   }
 }

@@ -1,3 +1,7 @@
+body {
+  background-attachment: fixed;
+}
+
 .navbar .nav-item:not(:last-child) {
   margin-right: 35px;
 }
@@ -7,11 +11,18 @@
   font-size: 20px;
   margin-top: 0px;
 }
-
+.navbar-brand {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+}
+.navbar img {
+  padding: 0;
+  height: 70px;
+}
 .navbar {
-  margin: 4px;
-  padding-left: 20px;
   padding-top: 0%;
+  background-color: rgba(0, 0, 0);
 }
 
 a {
@@ -21,6 +32,10 @@ a {
 @font-face {
   font-family: KRIS KRINGLEimport;
   src: url("KRIS KRINGLE.ttf");
+}
+@font-face {
+  font-family: glimmer of lightimport;
+  src: url("glimmer\ of\ light.otf");
 }
 
 @font-face {
@@ -47,7 +62,10 @@ a {
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(330deg, rgb(8, 56, 78) 55%, rgb(19, 128, 136) 0%);
+
+  background: url("../img/test.jpg");
+
+  background-attachment: fixed;
 }
 
 .about {
@@ -61,51 +79,57 @@ a {
   letter-spacing: 2px;
   padding-top: 40px;
   font-size: 50px;
-  -webkit-text-stroke: 2.5px rgb(255, 255, 255);
+  -webkit-text-stroke: 5px black;
   font-family: KRIS KRINGLEimport;
-  color: black;
+  color: white;
+  margin-left: 75px;
 }
 
 .about p {
-  color: rgb(0, 0, 0);
+  color: rgb(244, 252, 247);
   margin-top: 50px;
-  font-size: 27px;
-  width: 40%;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 42%;
+  text-indent: 2px;
 }
 
 .foot {
-  background-color: rgb(54, 70, 68);
+  background: linear-gradient(to bottom, #1b0468, #0953b4);
 }
 
 .category {
-  margin-top: 50px;
-  font-size: 27px;
+  margin-top: 0px;
+  padding: 0%;
+  margin: 0%;
+  font-size: 40px;
   align-content: center;
-  font-family: "Times New Roman", Times, serif;
-  color: black;
+  font-family:Freestyle Script;
+  color: rgb(230, 224, 224);
   display: flex;
-  background-color: rgba(8, 56, 78);
 }
 
 .category ol {
-  margin: 50px;
-  padding: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0px;
 }
 .foot h1 {
   text-align: center;
   letter-spacing: 2px;
 
-  font-size: 50px;
-  -webkit-text-stroke: 2.5px rgb(255, 255, 255);
-  font-family: KRIS KRINGLEimport;
-  color: black;
+  font-size: 60px;
+  -webkit-text-stroke: 5px black;
+  font-family: fantasy;
+  color: white;
 }
 .s {
-  font-family: KRIS KRINGLEimport;
+  font-size: 45px;
+  color: white;
+  font-family: Broadway;
+  
 }
 .contain {
-  font-family: "Times New Roman", Times, serif;
+  font-family: cursive;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0);
@@ -113,8 +137,7 @@ a {
   padding: 20px;
   background-image: linear-gradient(rgba(3, 3, 3, 0.65), rgba(3, 3, 3, 0.65)),
     url(../img/bg.jpg);
-
-  background-size: 100%, 100%;
+  background-attachment: fixed;
 }
 
 .contain h1 {
@@ -140,6 +163,8 @@ a {
 @media screen and (max-width: 768px) {
   .font-big {
     font-size: 30px;
+    margin-left: -25px;
+    text-align: center;
   }
   .navlog {
     display: flex;
@@ -160,7 +185,7 @@ a {
   }
   .clock img {
     width: 80px;
-    height: 60px;
+    height: auto;
   }
   .contain p {
     width: 80%;
@@ -186,6 +211,21 @@ a {
     font-size: 20px;
     text-align: center;
   }
+  .qr {
+    margin: 20px;
+  }
+  .img1 {
+    width: 270px;
+  }
+  .img2 {
+    width: 55px;
+  }
+  .navbar-brand img {
+    height: 50px;
+  }
+  .navbar-brand {
+    height: 60px;
+  }
 }
 
 .button1 {
@@ -208,8 +248,4 @@ a {
 }
 a:hover {
   color: rgb(96, 106, 124);
-}
-.navlog {
-  margin-left: -50px;
-  margin-top: 10px;
 }
