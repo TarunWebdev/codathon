@@ -79,6 +79,7 @@ a {
   letter-spacing: 2px;
   padding-top: 40px;
   font-size: 50px;
+
   -webkit-text-stroke: 5px black;
   font-family: KRIS KRINGLEimport;
   color: white;
@@ -103,7 +104,7 @@ a {
   margin: 0%;
   font-size: 40px;
   align-content: center;
-  font-family:Freestyle Script;
+
   color: rgb(230, 224, 224);
   display: flex;
 }
@@ -116,7 +117,6 @@ a {
 .foot h1 {
   text-align: center;
   letter-spacing: 2px;
-
   font-size: 60px;
   -webkit-text-stroke: 5px black;
   font-family: fantasy;
@@ -126,7 +126,6 @@ a {
   font-size: 45px;
   color: white;
   font-family: Broadway;
-  
 }
 .contain {
   font-family: cursive;
@@ -155,10 +154,6 @@ a {
   font-size: 20px;
   width: 40%;
 }
-.clock {
-  display: flex;
-  margin-left: 300px;
-}
 
 @media screen and (max-width: 768px) {
   .font-big {
@@ -179,14 +174,7 @@ a {
     font-size: 15px;
     width: 80%;
   }
-  .clock {
-    display: flex;
-    margin-left: 50px;
-  }
-  .clock img {
-    width: 80px;
-    height: auto;
-  }
+
   .contain p {
     width: 80%;
     font-size: 15px;
@@ -202,14 +190,17 @@ a {
     text-align: center;
     margin: 10px;
     padding: 10px;
+    font-size: 20px;
   }
 
   .foot h1 {
-    font-size: 20px;
+    font-size: 30px;
+    -webkit-text-stroke: 2.5px black;
   }
   .s {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    padding-bottom: 10px;
   }
   .qr {
     margin: 20px;
@@ -225,6 +216,9 @@ a {
   }
   .navbar-brand {
     height: 60px;
+  }
+  .about h1 {
+    margin-left: 5px;
   }
 }
 

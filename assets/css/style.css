@@ -72,3 +72,8 @@
 .front h1 {
   padding: 100px;
 }
+@media screen and (max-width: 768px) {
+  .front {
+    height: 650px;
+  }
+}
