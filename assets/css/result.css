@@ -1,0 +1,22 @@
+.result {
+  color: white;
+  font-size: 50px;
+  align-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.resultbody {
+  display: flex;
+  color: antiquewhite;
+}
+.card1 {
+  background-color: rgb(48, 44, 44);
+  margin: auto;
+  padding: auto;
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card1 .card-title {
+  font-size: 30px;
+}
